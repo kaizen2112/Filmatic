@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "738663157123",
+    "firebase_url": "https://logreg-bedbd-default-rtdb.firebaseio.com",
+    "project_id": "logreg-bedbd",
+    "storage_bucket": "logreg-bedbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738663157123:android:0fccc9ffbf8cf7da2afab6",
+        "android_client_info": {
+          "package_name": "com.example.filmatic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKttoI8zuar23cWVF_n1FmNJmXmqBbwLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738663157123:android:75e16ae21afcc13b2afab6",
+        "android_client_info": {
+          "package_name": "com.example.logreg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKttoI8zuar23cWVF_n1FmNJmXmqBbwLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

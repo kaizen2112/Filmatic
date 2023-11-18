@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- inner_drawer_layout.xml -->
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- Header Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:src="@drawable/filmatic_logo"
+
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/headerImage" />
+
+    <!-- Edit Texts for Additional User Details -->
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fullname"
+        android:layout_below="@+id/headerImage"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+    <EditText
+        android:id="@+id/favgenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Favourite genre"
+        android:layout_below="@+id/fullname"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <EditText
+        android:id="@+id/favmovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Favourite movie"
+        android:layout_below="@+id/favgenre"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+    <EditText
+        android:id="@+id/favdirector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Favourite director"
+        android:layout_below="@+id/favmovie"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/fullnametextview"
+        android:text="Fullname"
+        android:textSize="14dp"
+        android:textColor="@color/purpletext"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/favdirector"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/favgenretextview"
+        android:text="Favourite genre"
+        android:textSize="14dp"
+        android:textColor="@color/purpletext"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fullnametextview2"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/favmovietextview"
+        android:text="Favourite movie"
+        android:textSize="14dp"
+        android:textColor="@color/purpletext"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/favgenretextview2"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/favdirectortextview"
+        android:text="Favourite director"
+        android:textSize="14dp"
+        android:textColor="@color/purpletext"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/favmovietextview2"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="gone"
+        />
+        <TextView
+            android:id="@+id/fullnametextview2"
+            android:text="name"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/fullnametextview"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:visibility="gone"
+
+            />
+        <TextView
+            android:id="@+id/favgenretextview2"
+            android:text="name"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/favgenretextview"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:visibility="gone"
+
+            />
+        <TextView
+            android:id="@+id/favmovietextview2"
+            android:text="name"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/favmovietextview"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:visibility="gone"
+
+            />
+        <TextView
+            android:id="@+id/favdirectortextview2"
+            android:text="name"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/favdirectortextview"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:visibility="gone"
+            />
+
+
+    <!-- Add more EditTexts as needed -->
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Details"
+        android:layout_below="@+id/favdirectortextview2"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="saveDetails"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/saveButton" />
+
+    </RelativeLayout>
+</ScrollView>
